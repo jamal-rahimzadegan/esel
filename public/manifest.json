@@ -1,0 +1,25 @@
+{
+    "short_name": "اسل",
+    "name": "اسل",
+    "theme_color": "#ffca05",
+    "background_color": "#ffca05",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "description": "اپ اسل",
+    "author": "no-one",
+    "scope": "/",
+    "start_url": "/",
+    "prefer_related_applications": null,
+    "icons": [
+        {
+            "src": "logo.svg",
+            "sizes": "16x16 32x32 64x64 72x72 96x96 128x128 192x192 256x256 512x512",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "logo512.png",
+            "sizes": "512x512",
+            "purpose": "maskable any"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header  should render header 1`] = `
+<header
+  className="LayoutStyle__HeaderContainer-sc-1txtlos-1 fFBrzl"
+>
+  <img
+    alt="menu"
+    className="ImgStyle-sc-1pe7p4e-0 csKpzj pointer"
+    height={28}
+    loading="lazy"
+    onClick={[Function]}
+    onError={[Function]}
+    radius={null}
+    src="/static/icon/menu.svg"
+    width={28}
+  />
+  <a
+    className="HyperLinkStyle__A-sc-27jl42-0 etQtyC"
+    href="/home"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    rel="noopener noreferrer"
+    target="_self"
+    title="/home"
+  >
+    <img
+      alt="logo"
+      className="ImgStyle-sc-1pe7p4e-0 csKpzj"
+      height={35}
+      loading="lazy"
+      onError={[Function]}
+      radius={null}
+      src="/static/icon/logocrop.svg"
+      width={130}
+    />
+  </a>
+  <div
+    className="mr-5 ml-4"
+  />
+</header>
+`;

@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'APP-Regular';
+  src: url(../../../public/static/fonts/akharin-khabar/AkharibKhabar-regular.otf) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'APP-Bold';
+  src: url(../../../public/static/fonts/akharin-khabar/AkharibKhabar-Bold.otf) format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'APP-Thin';
+  src: url(../../../public/static/fonts/akharin-khabar/AkharibKhabar-thin.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'iransans';
+  src: url(../../../public/static/fonts/iransans/IRANSans.ttf) format('truetype');
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: iransans, 'APP-Regular';
+}
+
+.title-font {
+  /*akharin khabar font goes here (for titles)*/
+  font-family: APP-Bold;
+}
+
+p {
+  margin: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+/*--------overriding default inputs style----------------------------------------*/
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/*--------centering items----------------------------------------*/
+.center-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one-line-text {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+
+.no-scroll-bar::-webkit-scrollbar {
+  width: 0;
+}

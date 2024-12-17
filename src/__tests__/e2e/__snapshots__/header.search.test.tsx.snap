@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header  should render header 1`] = `
+<div
+  className="LayoutStyle__HeaderContainer-sc-1txtlos-1 ePVhCm"
+>
+  <div
+    className="d-flex justify-content-end"
+  >
+    <img
+      alt="back"
+      className="ImgStyle-sc-1l7md9a-0 dVzkPW mx-1 pointer"
+      height={40}
+      loading="lazy"
+      onError={[Function]}
+      radius={null}
+      src="/static/icon/back.svg"
+      width={40}
+    />
+  </div>
+  <div
+    className="d-flex w-100 align-items-center justify-content-between pl-1"
+  >
+    <div
+      className="d-flex align-items-center m-0 p-0 pointer"
+      onClick={[Function]}
+    >
+      <img
+        alt="menu"
+        className="ImgStyle-sc-1l7md9a-0 dVzkPW"
+        height={28}
+        loading="lazy"
+        onError={[Function]}
+        radius={null}
+        src="/static/icon/menu.svg"
+        width={28}
+      />
+      <img
+        alt="logo"
+        className="ImgStyle-sc-1l7md9a-0 dVzkPW"
+        height={30}
+        loading="lazy"
+        onError={[Function]}
+        radius={null}
+        src="/static/icon/logocrop.svg"
+        width={100}
+      />
+    </div>
+    <div
+      className="StyledCard-pqrptz-0 fxWBLk col-xl-3 col-lg-3 col-md-4 cl-sm-4 col-7 m-0 p-0 pr-2"
+    >
+      <div
+        className="rounded overflow-hidden shadow-sm"
+      >
+        <div
+          className="InputStyle__InputContainer-t7wfdc-1 cSRctk d-flex align-items-center justify-content-between w-100 undefined"
+          height="45px"
+        >
+          <input
+            className="InputStyle__StyledInput-t7wfdc-3 fNAwqa h-100 w-100 px-1"
+            name="search"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="جستجو در اشل"
+            type="search"
+          />
+          <div
+            className="StyledCard-pqrptz-0 fXnlfF pointer center-items h-100"
+            onClick={[Function]}
+            width="50px"
+          >
+            <img
+              alt="back"
+              className="ImgStyle-sc-1l7md9a-0 kakhi"
+              height="30px"
+              loading="lazy"
+              onError={[Function]}
+              radius={null}
+              src="/static/icon/search.svg"
+              width="30px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="StyledCard-pqrptz-0 fxWBLk DrawerStyle__SideBarContainer-o7u39i-0 cznMij"
+    id="drawer-menu"
+  >
+    <div
+      className="StyledCard-pqrptz-0 fxWBLk DrawerStyle__TriangleDiv-o7u39i-1 gCtwPO"
+    />
+    <div
+      id="drawer"
+    >
+      <a
+        className="HyperLinkStyle__A-lk2z8y-0 gwseho d-flex my-2 align-content-start"
+        href="/home"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        rel="noopener noreferrer"
+        target="_self"
+      >
+        <img
+          alt="home.svg"
+          className="ImgStyle-sc-1l7md9a-0 kakhi mx-2"
+          height={19}
+          loading="lazy"
+          onError={[Function]}
+          radius={null}
+          src="/static/icon/home.svg"
+          width={19}
+        />
+        <p
+          className="TxtStyle__StyledText-sc-1cg7ktb-0 cAfWMo"
+          onClick={[Function]}
+          size="s"
+        >
+          خانه
+        </p>
+      </a>
+      <a
+        className="HyperLinkStyle__A-lk2z8y-0 gwseho d-flex my-2 align-content-start"
+        href="/profile"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        rel="noopener noreferrer"
+        target="_self"
+      >
+        <img
+          alt="user.svg"
+          className="ImgStyle-sc-1l7md9a-0 kakhi mx-2"
+          height={19}
+          loading="lazy"
+          onError={[Function]}
+          radius={null}
+          src="/static/icon/user.svg"
+          width={19}
+        />
+        <p
+          className="TxtStyle__StyledText-sc-1cg7ktb-0 cAfWMo"
+          onClick={[Function]}
+          size="s"
+        >
+          حساب کاربری
+        </p>
+      </a>
+      <a
+        className="HyperLinkStyle__A-lk2z8y-0 gwseho d-flex my-2 align-content-start"
+        href="/project/archive"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        rel="noopener noreferrer"
+        target="_self"
+      >
+        <img
+          alt="archive-done-projects.svg"
+          className="ImgStyle-sc-1l7md9a-0 kakhi mx-2"
+          height={19}
+          loading="lazy"
+          onError={[Function]}
+          radius={null}
+          src="/static/icon/archive-done-projects.svg"
+          width={19}
+        />
+        <p
+          className="TxtStyle__StyledText-sc-1cg7ktb-0 cAfWMo"
+          onClick={[Function]}
+          size="s"
+        >
+          پروژه های پایان یافته
+        </p>
+      </a>
+      <a
+        className="HyperLinkStyle__A-lk2z8y-0 gwseho d-flex my-2 align-content-start"
+        href="/calender"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        rel="noopener noreferrer"
+        target="_self"
+      >
+        <img
+          alt="calender.svg"
+          className="ImgStyle-sc-1l7md9a-0 kakhi mx-2"
+          height={19}
+          loading="lazy"
+          onError={[Function]}
+          radius={null}
+          src="/static/icon/calender.svg"
+          width={19}
+        />
+        <p
+          className="TxtStyle__StyledText-sc-1cg7ktb-0 cAfWMo"
+          onClick={[Function]}
+          size="s"
+        >
+          تقویم یادداشت
+        </p>
+      </a>
+      <a
+        className="HyperLinkStyle__A-lk2z8y-0 gwseho d-flex my-2 align-content-start"
+        href="/present"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        rel="noopener noreferrer"
+        target="_self"
+      >
+        <img
+          alt="logo.svg"
+          className="ImgStyle-sc-1l7md9a-0 kakhi mx-2"
+          height={19}
+          loading="lazy"
+          onError={[Function]}
+          radius={null}
+          src="/static/icon/logo.svg"
+          width={19}
+        />
+        <p
+          className="TxtStyle__StyledText-sc-1cg7ktb-0 cAfWMo"
+          onClick={[Function]}
+          size="s"
+        >
+          معرفی اپ
+        </p>
+      </a>
+      <a
+        className="HyperLinkStyle__A-lk2z8y-0 gwseho d-flex my-2 align-content-start"
+        href="/order-ads"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        rel="noopener noreferrer"
+        target="_self"
+      >
+        <img
+          alt="advertise.svg"
+          className="ImgStyle-sc-1l7md9a-0 kakhi mx-2"
+          height={19}
+          loading="lazy"
+          onError={[Function]}
+          radius={null}
+          src="/static/icon/advertise.svg"
+          width={19}
+        />
+        <p
+          className="TxtStyle__StyledText-sc-1cg7ktb-0 cAfWMo"
+          onClick={[Function]}
+          size="s"
+        >
+          سفارش آگهی
+        </p>
+      </a>
+      <a
+        className="HyperLinkStyle__A-lk2z8y-0 gwseho d-flex my-2 align-content-start"
+        href="/telegram-channels"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        rel="noopener noreferrer"
+        target="_self"
+      >
+        <img
+          alt="cities.svg"
+          className="ImgStyle-sc-1l7md9a-0 kakhi mx-2"
+          height={19}
+          loading="lazy"
+          onError={[Function]}
+          radius={null}
+          src="/static/icon/cities.svg"
+          width={19}
+        />
+        <p
+          className="TxtStyle__StyledText-sc-1cg7ktb-0 cAfWMo"
+          onClick={[Function]}
+          size="s"
+        >
+          اشل در استان ها
+        </p>
+      </a>
+      <a
+        className="HyperLinkStyle__A-lk2z8y-0 gwseho d-flex my-2 align-content-start"
+        href="/msg-box"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        rel="noopener noreferrer"
+        target="_self"
+      >
+        <img
+          alt="envelope.svg"
+          className="ImgStyle-sc-1l7md9a-0 kakhi mx-2"
+          height={19}
+          loading="lazy"
+          onError={[Function]}
+          radius={null}
+          src="/static/icon/envelope.svg"
+          width={19}
+        />
+        <p
+          className="TxtStyle__StyledText-sc-1cg7ktb-0 cAfWMo"
+          onClick={[Function]}
+          size="s"
+        >
+          ارتباط با ما
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+`;

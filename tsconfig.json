@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "baseUrl": "src",
+    "paths": {
+      "utils/*": ["utils/*"],
+      "components/*": ["components/*"],
+      "constant/*": ["constant/*"],
+      "hooks/*": ["hooks/*"],
+      "services/*": ["services/*"],
+      "api/*": ["api/*"],
+      "assets/*": ["assets/*"],
+      "types/*": ["types/*"],
+      "store/*": ["store/*"],
+      "views/*": ["views/*"]
+    },
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "watch": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": ["../next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["../node_modules", "../.next"],
+  "types": ["cypress"]
+}

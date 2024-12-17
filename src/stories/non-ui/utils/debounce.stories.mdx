@@ -1,0 +1,16 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Debounce" />
+
+## Debounce the execution of a given function
+
+### Syntax: debounce(fn , timeout)
+
+- fn: callback function
+- timeout: timout value in ms
+
+#### Usage:
+
+const doSomeThing = () => {console.log("doing...")}
+
+debounce (doSomeThing , 300)

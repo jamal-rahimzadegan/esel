@@ -1,0 +1,15 @@
+// It's just for showcasing, it's better to not inject ot the Prototypes unless you have no other choice.
+
+// Array ////////////////////////////////////////////////////////////////
+Array.prototype.groupBy = function (key: string) {
+  return this.reduce((group, element) => {
+    if (element[key] === undefined) return group;
+    return Object.assign(group, { [element[key]]: (group[element[key]] || []).concat(element) });
+  }, {});
+};
+
+// Object ////////////////////////////////////////////////////////////////
+
+// String ////////////////////////////////////////////////////////////////
+
+// Number ////////////////////////////////////////////////////////////////
